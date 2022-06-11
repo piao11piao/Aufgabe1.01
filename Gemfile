@@ -1,5 +1,8 @@
 source "https://rubygems.org"
-
+gem "rake"
+gem "nokogiri","1.13.6"
+gem "racc"
+gem "grpc"
 gem "rails", "~> 6.0.0"
 gem 'babel-transpiler'
 gem "pg"
